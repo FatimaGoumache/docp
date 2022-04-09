@@ -1,0 +1,157 @@
+
+.header{
+     display: inline;
+    position: sticky;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 2px 4px;
+  }
+nav img{
+    width: 35%;
+    height: 20%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    }
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 6px 10px;
+    position: relative;
+}
+nav ul li a{
+color:#ababab ;
+text-decoration: none;
+}
+#img{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+.text-box h1{
+    text-align: center;
+    color: #00b39b;
+    font-family: Roboto;
+    font-size: xx-large;
+}
+.text-box div{
+    display: flex;
+    color: #747474;
+    font-family: Roboto;
+    font-size: large;
+  
+}
+.services-section{
+  
+    
+}
+
+.services{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+font-family: Roboto;
+color: white;
+
+}
+
+.patients{
+    background-color: #00b39b;
+    border-radius: 10px;
+    padding: 25px 40px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    
+}
+
+.doctors{
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    
+}
+.hospital{
+    background-color:#1b2734;
+    border-radius: 10px;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#domain-switcher{
+    text-decoration: underline;
+    background: transparent;
+    color: white;
+    border: none;
+
+}
+
+
+
+.offices-section div{
+    text-align: center;
+    width: 100%;
+}
+.offices-section div h1{
+    color: #00b39b;
+    font-size: x-large;
+    font-family: Roboto;
+}
+.offices-section div p{
+    color: #747474;
+    font-family: Roboto;
+    margin: 10px 50px;
+}
+
+.join-us{
+margin: 30px;
+padding: 20px;
+display: block;
+position: relative;
+}
+
+.join_us_section{
+   display: block;
+   text-align: center;
+}
+
+.join_us_section h1{
+    color: #333;
+    text-align: center;
+    font-family: Roboto;
+    font-size:larger;
+}
+.join_us_section a{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 10px 20px;
+    font-size: medium;
+    background-color:#3d83df ;
+    text-decoration: none;
+    
+
+    
+}
+
+.main-footer{
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+      
+}
+.section-footer{
+    font-size: small;
+    font-family: Roboto;
+    color: #ababab;
+    display: block;
+}
+
